@@ -1,0 +1,49 @@
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-5">
+            <div class="card border-0 shadow-sm rounded-4">
+                <div class="card-body p-4 p-md-5">
+                    <div class="d-inline-flex align-items-center justify-content-center
+                                bg-primary-subtle text-primary rounded-4 p-3 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             width="36" height="36"
+                             fill="none" stroke="currentColor"
+                             stroke-width="1.8" viewBox="0 0 24 24"
+                             aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                  d="M3 10.5 12 3l9 7.5M5 9v11h5v-6h4v6h5V9" />
+                        </svg>
+                    </div>
+
+                    <p class="small fw-semibold text-primary text-uppercase mb-2">
+                        Tu espacio
+                    </p>
+
+                    <h1 class="h2 fw-bold mb-3">¡Bienvenido!</h1>
+
+                    <p class="text-body-secondary mb-4">
+                        Ya estás en la página de inicio.
+                        Desde acá podrás acceder a las funcionalidades
+                        de la aplicación.
+                    </p>
+
+                    <div class="border-top pt-4">
+                        <a asp-controller="Home"
+                           asp-action="Index"
+                           class="btn btn-outline-primary w-100">
+                            Volver al login
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-center text-body-secondary small mt-3">
+                Taller .NET · Laboratorio 4
+            </p>
+        </div>
+    </div>
+</div>
